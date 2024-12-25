@@ -1,0 +1,33 @@
+{
+  "name": "defender-name",
+  "version": "1.0.0",
+  "description": "Browser based name",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djedra/js_ac_hw_1.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "djedra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djedra/js_ac_hw_1/issues"
+  },
+  "homepage": "https://github.com/djedra/js_ac_hw_1#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "eslint": "^8.56.0"
+  },
+  "dependencies": {
+    "core-js": "^3.36.0"
+  }
+}
